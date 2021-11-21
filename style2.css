@@ -1,0 +1,226 @@
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+/***** grandes banner *****/
+.grandes{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background: #222222;
+    border-style: none;
+    color: #F3F3F3;
+    font-size: 10px;
+    height: 20px;
+}
+#grandes2{
+    display: flex;
+}
+#et{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    background:#222222;;
+    color: #F3F3F3;
+    border: none;
+
+}
+
+/***** Header ****/
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    color:  #F3F3F3;
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-content: right;
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a :visited{
+    color: white;
+    text-decoration: none;
+}
+
+.slide{
+    background-image: url("img/Dogverde.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 409px;
+    justify-content: center;
+    padding-right: 40px;
+}
+#slideTitle{
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(60, 35, 19, 1);
+    margin: 10px;
+    padding: 10px;
+}
+#slideText{
+    font-size: 16px;
+    color: rgba(60, 35, 19, 1);
+    margin: 10px;
+    padding: 10px;
+}
+button{
+    background-color: #F0A83E;
+    border-radius: 5px;
+    border-style: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: #8A8787;
+    border-style: none;
+    color: #fff;
+}
+.Products{
+    background-color: #FFFFFF;
+    border-style: none;
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.productsNav{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #666666;
+    text-align: center;
+}
+
+.cajas{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.card1{
+    background-color: #FBFAF6;
+    width: 30%;
+    text-align: center;
+}
+
+.contactenos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c1{
+    background: #3C2313;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 50%;
+    padding: 20px;
+    border-style: none;
+}
+
+.c1 ::placeholder{
+    color:#FFFFFF;
+}
+
+.c4{
+    background:#F0A83E;
+    color:#FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 110px;
+    padding: 10px;
+    border-style: none;
+}
+
+.c4:hover{
+    background-color: #8A8787;
+}
+
+#botones{
+    display: flex;
+}
+
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:  #F0A83E;
+    color:  #F3F3F3;
+    font-size: 20px;
+    height: 62px;
+    font-weight: 700;
+    padding: 40px;
+}
+
+
+.subscribe input{
+    background-color:  #FFFFFF;
+    border-radius: 15px;
+    border-style: none;
+    color: #A0A0A0;
+    font-size: 9px;
+    font-weight: 400px;
+    width: 271px;
+    height: 40px;
+
+}
+.subscribe input[type=submit]{
+    background-color:  #3C2313;
+    color: #FFFFFF;
+    height: 35px;
+    width: 70px;
+}
+.subscribe ::placeholder{ 
+    color: #A0A0A0;
+    border-style: none;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:   #3C2313;
+    color:  #F3F3F3;
+    padding: 40px;
+}
+
+.footerElement{
+    display: flex;
+    align-items: center;
+}
+
+.name1{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.copyright{
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+}
